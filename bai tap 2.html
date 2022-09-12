@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a= ['c','s','c','2','1','6'];
+    for (let i = 0; i <5 ; i++) {
+    }document.write(" a = ["+a+"]<br>");
+    let first=0;
+    last= a.length -1;
+    while (first<last){
+        let b=a[first];
+        a[first]=a[last];
+        a[last]=b;
+        first++;
+        last--;
+    }document.write('mảng số được đảo ngược là : ' + a)
+</script>
+</body>
+</html>
